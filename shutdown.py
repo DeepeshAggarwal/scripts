@@ -4,9 +4,9 @@ import os
 from time import sleep
 import subprocess
 
-SYSTEM_HOUR_DEFAULT = 18
-SYSTEM_MINUTE_RANGE_START = 7
-SYSTEM_MINUTE_RANGE_END = 12
+SYSTEM_HOUR_DEFAULT = 21
+SYSTEM_MINUTE_RANGE_START = 24
+SYSTEM_MINUTE_RANGE_END = 30
 DEFAUTL_SLEEP_TIME = 5*60
 
 def sendNotification(title, message):
